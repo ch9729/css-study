@@ -1,0 +1,19 @@
+.block-container {
+    border: 3px solid blue;
+}
+
+.inline-container {
+    border: 3px solid red;
+}
+
+.block-container div {
+    border: 3px solid green;
+    width: 400px;
+    display: inline;        /* 블럭요소를 인라인요소로 변경 */
+}
+
+.inline-container span {
+    background-color: red;
+    width: 400px;       /* 인라인 요소라 적용X */
+    display: block;     /* 인라인 요소를 블럭요소로 변경 */
+}

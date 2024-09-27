@@ -1,0 +1,35 @@
+.container {
+    background-color: gray;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid blue;
+    box-sizing: content-box;    /* 디폴트값 */
+    padding: 50px;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid yellow;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid red;
+    padding: 50px;
+}
+
+.text {
+    width: 200px;   /* 인라인 요소는 가로 세로 조절이 안됨 */
+    height: 50px;
+    background-color: red;
+}
